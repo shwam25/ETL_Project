@@ -1,0 +1,14 @@
+Project Name: Cell-phones' Ratings on Amazon
+
+Extract data:
+   Data Source: https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews
+   Has two datasets: items.csv and reviews.csv
+
+Transform data: 
+   Using python/pandas group data from CSVs to get average review ratings relative to each phone model
+
+Load data:
+   Create ERD, schema tables in postgres to load final dataframe
+   Import the database into Pandas using sqlalchemy connection
+
+
