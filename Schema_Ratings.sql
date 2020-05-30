@@ -9,4 +9,12 @@ Rating FLOAT (1),
 ReviewDate date NULL,
 ProductCountBrand   VARCHAR (255) NULL
 );
+
+--Clearing out old data
 DROP TABLE Amazon_Review_Ratings; 
+
+--Top 25 phones data
+CREATE TABLE Top_Phones (
+ItemName VARCHAR (25)  NULL,
+Rating FLOAT (1)
+);
