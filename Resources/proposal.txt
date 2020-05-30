@@ -1,8 +1,8 @@
 Project Name: Cell-phones' Ratings on Amazon
 
 Extract data:
-   Data Source: https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews
-   Has two datasets: items.csv and reviews.csv
+   Data Source: https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews (items.csv and reviews.csv)
+                https://data.world/promptcloud/amazon-mobile-phone-reviews
 
 Transform data: 
    Using python/pandas group data from CSVs to get average review ratings relative to each phone model
