@@ -12,9 +12,11 @@ ProductCountBrand   VARCHAR (255) NULL
 
 --Clearing out old data
 DROP TABLE Amazon_Review_Ratings; 
+DROP TABLE Top_Phones;
 
 --Top 25 phones data
-CREATE TABLE Top_Phones (
-ItemName VARCHAR (25)  NULL,
-Rating FLOAT (1)
+CREATE TABLE Top_Ratings (
+ItemName VARCHAR (255)  NULL,
+Rating FLOAT (1),
+ItemPrice NUMERIC
 );
